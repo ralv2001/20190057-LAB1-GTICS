@@ -3,7 +3,6 @@ package com.example.laboratorio1_20190057.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 
 //EL HomeController es un Controller general por así decirlo para gestionar a todos los demás controladores
@@ -23,7 +22,7 @@ public class HomeController {
     public String paginaPrincipal(){
         //NOTAR QUE NO ES NECESARIO DECIR QUE ESTOY USANDO LA EXTENSIÓN HTML, ES QUE YA SE ASUME POR DEFECTO
         //NO PONGO NINGÚN SLASH PORQUE DIRECTAMENTE SE AGREGA DE LA CARPETA TEMPLATES
-        return "home/PaginaPrincipal";
+        return "PaginaPricipal";
     }
 
 }
